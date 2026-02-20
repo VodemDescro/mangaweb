@@ -27,7 +27,7 @@ function App() {
   }, [])
 
   return (
-    <div className="font-Rubik-Regular min-h-screen bg-[#EDF2FB] dark:bg-[#051923] transition-colors ease-in-out 0.5">
+    <div className="font-Rubik-Regular min-h-dvh bg-[#EDF2FB] dark:bg-[#051923] transition-colors ease-in-out 0.5">
       {!hideHeader && <Header />}
       <Routes>
         <Route path="/" element={<Home />} />
